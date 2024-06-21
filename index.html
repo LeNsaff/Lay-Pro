@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lay Pro - Expert en électricité pour le BTP</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-    <header>
-        <h1>Lay Pro</h1>
-        <p>Votre expert en électricité pour le BTP</p>
-        <nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lay Pro - Expert en électricité pour le BTP</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Lay Pro</h1>
+            <p>Votre expert en électricité pour le BTP</p>
+
+            <div class="carousel">
+                <img src="laypro asset/image1.jpeg" alt="Slide 1" class="carousel-image">
+                <img src="laypro asset/image2.jpeg" alt="Slide 2" class="carousel-image">
+                <img src="laypro asset/image3.jpeg" alt="Slide 3" class="carousel-image">
+                <button class="carousel-control prev" onclick="goToPrevious()">&#10094;</button>
+                <button class="carousel-control next" onclick="goToNext()">&#10095;</button>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="cta-button">Contactez-nous</button>
+        </header>
+        
+        <section id="accueil">
+            <h2>Bienvenue chez Lay Pro</h2>
+            <p>Des solutions électriques innovantes et fiables pour vos projets de construction</p>
+        </section>
+
+        <section id="a-propos">
+            <h2>Qui sommes-nous ?</h2>
+            <p>Lay Pro est une entreprise spécialisée dans les services électriques pour le secteur du BTP, offrant des solutions de haute qualité adaptées à vos besoins.</p>
+        </section>
+
+        <section id="services">
+            <h2>Nos Services</h2>
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#a-propos">À propos</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>Installation électrique</li>
+                <li>Maintenance et Réparation</li>
+                <li>Systèmes de sécurité</li>
+                <li>Solutions d'éclairage</li>
             </ul>
-        </nav>
-        <button class="cta-button">Contactez-nous</button>
-    </header>
-    
-    <section id="accueil">
-        <h2>Bienvenue chez Lay Pro</h2>
-        <p>Des solutions électriques innovantes et fiables pour vos projets de construction</p>
-    </section>
+        </section>
 
-    <section id="a-propos">
-        <h2>Qui sommes-nous ?</h2>
-        <p>Lay Pro est une entreprise spécialisée dans les services électriques pour le secteur du BTP, offrant des solutions de haute qualité adaptées à vos besoins.</p>
-    </section>
+        <section id="projets">
+            <h2>Nos Projets</h2>
+            <p>Découvrez quelques-uns de nos projets récents et la qualité de notre travail.</p>
+            <!-- Ajoutez ici des images ou des descriptions de projets -->
+        </section>
 
-    <section id="services">
-        <h2>Nos Services</h2>
-        <ul>
-            <li>Installation électrique</li>
-            <li>Maintenance et Réparation</li>
-            <li>Systèmes de sécurité</li>
-            <li>Solutions d'éclairage</li>
-        </ul>
-    </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
 
-    <section id="projets">
-        <h2>Nos Projets</h2>
-        <p>Découvrez quelques-uns de nos projets récents et la qualité de notre travail.</p>
-        <!-- Ajoutez ici des images ou des descriptions de projets -->
-    </section>
+        <footer>
+            <p>&copy; 2024 Lay Pro. Tous droits réservés.</p>
+        </footer>
+    </body>
 
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <form>
-            <label for="name">Nom</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Lay Pro. Tous droits réservés.</p>
-    </footer>
-</body>
+    <script src="script/index.js"></script>
 </html>
