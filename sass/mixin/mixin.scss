@@ -1,0 +1,37 @@
+@mixin ctnvert{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin ctnhor{
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin borderbtn{
+    border-radius: 5px;
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #a7a7a7;
+    ;
+}
+
+
+@mixin borderimg{
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 10px 5px 5px #a7a7a7;
+}
+
+@mixin bgcolor{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*variables*/
+
+$colorlogo: #39A5E9;
+
+$bgcolorgrad : linear-gradient(#ffff ,#39A5E9 ) ;

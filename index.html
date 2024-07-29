@@ -3,74 +3,152 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lay Pro - Expert en électricité pour le BTP</title>
-        <link rel="stylesheet" href="css/index.css">
+        <title>Lay Pro</title>
+        <link rel="stylesheet" href="sass/css/index.css">
     </head>
     <body>
         <header>
-            <h1>Lay Pro</h1>
-            <p>Votre expert en électricité pour le BTP</p>
-
-            <div class="carousel">
-                <img src="laypro asset/image1.jpeg" alt="Slide 1" class="carousel-image">
-                <img src="laypro asset/image2.jpeg" alt="Slide 2" class="carousel-image">
-                <img src="laypro asset/image3.jpeg" alt="Slide 3" class="carousel-image">
-                <img src="laypro asset/image4.jpeg" alt="Slide 3" class="carousel-image">
-                <img src="laypro asset/Screenshot 2024-06-12 at 19.17.06.png" alt="Slide 3" class="carousel-image">
-                <button class="carousel-control prev" onclick="goToPrevious()">&#10094;</button>
-                <button class="carousel-control next" onclick="goToNext()">&#10095;</button>
+            <div>
+                <img src="laypro asset/logo-removebg-preview.png" class="logo" alt="">
             </div>
 
-            <nav>
-                <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#a-propos">À propos</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+
+
+            <nav>   
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </nav>
-            <button class="cta-button">Contactez-nous</button>
+
         </header>
-        
-        <section id="accueil">
-            <h2>Bienvenue chez Lay Pro</h2>
-            <p>Des solutions électriques innovantes et fiables pour vos projets de construction</p>
-        </section>
 
-        <section id="a-propos">
-            <h2>Qui sommes-nous ?</h2>
-            <p>Lay Pro est une entreprise spécialisée dans les services électriques pour le secteur du BTP, offrant des solutions de haute qualité adaptées à vos besoins.</p>
-        </section>
+        <main>
+            <section class="accueil">
+                <div class="bvn">
+                    <img src="laypro asset/head-removebg-preview.png" alt="" class="hb">
 
-        <section id="services">
-            <h2>Nos Services</h2>
-            <ul>
-                <li>Installation électrique</li>
-                <li>Maintenance et Réparation</li>
-                <li>Systèmes de sécurité</li>
-                <li>Solutions d'éclairage</li>
-            </ul>
-        </section>
+                    <h3>Unes exigeance de qualité</h3>
 
-        <section id="projets">
-            <h2>Nos Projets</h2>
-            <p>Découvrez quelques-uns de nos projets récents et la qualité de notre travail.</p>
-            <!-- Ajoutez ici des images ou des descriptions de projets -->
-        </section>
+                    <p>
+                        Crée en 2014, par un Jeune Gabonais visionnaire accompagné d’une équipe dynamique et de techniciens 
+                        spécialisés, LAY PRO est une Entreprise individuelle agrée par la SEEG au Capital de dix (10) Million 
+                        de FCFA qui exerce depuis le 26 Décembre 2014
+                    </p>
 
-        <section id="contact">
-            <h2>Contactez-nous</h2>
-            <form>
-                <label for="name">Nom</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
-        </section>
+                </div>
+
+                <div class="accside">
+                    <section class="partctn">
+                        <h3>Nos Partenaires</h3>
+                        <img src="laypro asset/partinter-removebg-preview.png" alt="" class="part">
+                        <img src="laypro asset/partlocal-removebg-preview.png" alt="" class="part">
+                    </section>
+
+                    <section class="rs">
+                        <img src="laypro asset/imagefb-removebg-preview.png" alt="" class="rsimg">
+                        <img src="laypro asset/imagetwitter-removebg-preview.png" alt="" class="rsimg">
+                        <img src="laypro asset/imagelinkedin-removebg-preview.png" alt="" class="rsimg">
+                    </section>
+                </div>
+            </section>
+
+
+            <section class="intro">
+                <div class="carousel introimg">
+                    <img src="laypro asset/image1.jpeg" alt="Slide 1" class="intro-image active">
+                    <img src="laypro asset/image2.jpeg" alt="Slide 2" class="intro-image">
+                    <img src="laypro asset/image3.jpeg" alt="Slide 3" class="intro-image">
+                    <img src="laypro asset/image4.jpeg" alt="Slide 3" class="intro-image">
+                </div>
+
+                <div class="introtxt">
+                    <h3>Bienvenue chez Lay Pro</h3>
+
+                    <p>    
+                        LAY PRO fait partie de la convention collective du secteur du commerce et a su s’implanter progressivement
+                        dans le domaine des travaux sur le réseau de distribution d’eau potable et des installations de l’énergie
+                        électrique sur le réseau de la SEEG avec une équipe dynamique, qui s’adapte à plusieurs situations et
+                        conditions particulières, tout en respectant les règles de l’art et les normes en vigueur.
+                    </p>
+
+                    <p>
+                        La société LAY PRO offre une large gamme de services dans les domaines de l’électricité et de l’eau. Elle 
+                        s'occupe de la maintenance et de la réhabilitation des ouvrages, ainsi que de l'installation d'équipements 
+                        neufs. Elle fournit également des conseils sur la maintenance et l'exploitation des réseaux d'électricité 
+                        et d'eau de la SEEG, réalise des études des réseaux de distribution, et coordonne les travaux de 
+                        distribution et de production
+                    </p>
+                </div>
+            </section>
+
+            <section class="service">
+                <h3>Nos Services</h3>
+                <div class="srv">
+                    <section class="srvctn">
+                        <p>
+                            En matière de gestion de projets, LAY PRO assure la gestion technique, incluant la gestion des contrats, 
+                            l'élaboration des plannings, la création de tableaux de bord, le suivi des contrats et le contrôle de la 
+                            réalisation. La société exécute aussi des travaux en électricité, tant en haute tension qu'en basse 
+                            tension, et intervient sur les réseaux d'eau de la SEEG. Elle réalise des colonnes montantes pour des 
+                            immeubles résidentiels ou des bâtiments industriels, et procède aux raccordements en électricité basse 
+                            tension et en eau potable.
+                        </p>
+
+                        <p>
+                            Pour mener à bien ces missions, LAY PRO dispose de moyens bureautiques, logistiques, d'appareils de mesure,
+                            d'engins et de matériels électriques adaptés à des réalisations de toute taille, ainsi que de véhicules de
+                            service pour les interventions techniques et administratives
+                        </p>
+
+                        <p>
+                            Nos equipes sont essentiellement constituées de hauts potentiels ayant une expérience affirmée dans 
+                            nos domaines d’intervention, accompagné d’un esprit d’équipe proactif et d’un professionnalisme 
+                            spontané afin de répondre sur le plan technique le besoin constaté et satisfaire l’attente de nos 
+                            partenaires et de notre clientèle.
+                        </p>
+
+                    </section>
+
+                    <section class="srvctn">
+                        <img src="laypro asset/WhatsApp Image 2024-06-05 at 16.52.24 (1).jpeg" alt="" class="srvimg">
+                        <img src="laypro asset/WhatsApp Image 2024-06-05 at 16.52.24 (3).jpeg" alt="" class="srvimg">
+                    </section>
+                </div>
+            </section>
+
+            <section class="projet">
+                <h3>Nos Realisations</h3>
+                <div class="ptxt">
+                    <p>
+                        LAY PRO offre une assistance technique pour la réalisation de travaux de gros entretien sur les postes
+                        de transformation de la SEEG et des sociétés privées. Elle mène des études sur l'optimisation 
+                        énergétique et coordonne les travaux de raccordement en électricité et en eau pour divers clients. 
+                        La société installe des lampadaires solaires dans l’Ogooué Maritime pour le compte de l’État et 
+                        effectue des travaux d’installation de postes de transformation HTA/BT dans le canton du Komo Kango. 
+                        Elle renforce également les postes en contraintes à Bikélé-Estuaire et assure l’alimentation en eau 
+                        potable des lotissements SNI Dorade POG phases 1 et 2.
+                    </p> 
+                    
+                    <p>
+                        LAY PRO se charge de l’extension des réseaux d’eau potable, en supprimant des arbres de Noël et en 
+                        rapprochant les compteurs à NZENG-AYONG (entrée ONDOGO). Elle alimente en eau potable le premier 
+                        campement et Malibé lot 3 - dorsale premier campement phase 1 (DN225 & 160 PEHD), et procède à 
+                        l’extension du réseau d’eau potable au village Libongui à Koulamoutou. Enfin, elle réalise des travaux
+                        d’extension de réseau d’eau potable pour le lotissement "SCI les serpentins" (phase 1).
+                    </p>
+                    
+                </div>
+
+                <div class="pimgctn">
+                    <img src="laypro asset/WhatsApp Image 2024-06-05 at 16.48.52.jpeg" class="pimg" alt="">
+                    <img src="laypro asset/WhatsApp Image 2024-06-05 at 16.48.52.jpeg" class="pimg" alt="">
+                    <img src="laypro asset/WhatsApp Image 2024-06-05 at 16.48.52.jpeg" class="pimg" alt="">
+                </div>
+            </section>
+
+        </main>
 
         <footer>
             <p>&copy; 2024 Lay Pro. Tous droits réservés.</p>

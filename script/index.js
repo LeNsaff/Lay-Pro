@@ -1,5 +1,7 @@
+/* inserer class "carousel-image" aux photos*/
+
 let currentIndex = 0;
-const images = document.querySelectorAll('.carousel-image');
+const images = document.querySelectorAll('.intro-image');
 
 function showImage(index) {
   images.forEach((img, i) => {
