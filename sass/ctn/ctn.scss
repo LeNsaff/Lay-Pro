@@ -5,7 +5,7 @@
 body{
     @include ctnvert;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 auto 0 auto;
@@ -18,7 +18,13 @@ header{
     justify-content: center;
     text-align: center;
     gap: 0px; 
+    height: 200px;
     margin-top: Opx;  
+}
+
+.logodiv{
+    margin-bottom: -30px;
+    margin-top: -30px;
 }
 
 .navdiv{
@@ -26,8 +32,6 @@ header{
     background-color: $colorlogo;
     border: 0;
     border-radius: 5px;
-
-
 }
 
 nav{
