@@ -30,7 +30,7 @@ setInterval(goToNext, 3000);
 //navbar scroll
 window.addEventListener('scroll', function() {
   var navbar = document.getElementById('navdivv');
-  if (window.scrollY > 150) { // Ajustez cette valeur selon vos besoins
+  if (window.scrollY > 220) {
     navbar.classList.add('fixed');
   } else {
     navbar.classList.remove('fixed');
