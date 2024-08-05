@@ -1,4 +1,5 @@
 /*variables*/
+/*variables*/
 a {
   font-size: 20px;
   margin: 0;
@@ -17,14 +18,15 @@ h1 {
 h3 {
   font-size: 30px;
   margin: 0;
+  color: #39A5E9;
 }
 
 /*variables*/
 /*variables*/
 .logo {
-  height: 100px;
-  width: 30%;
-  object-fit: fill;
+  height: 200px;
+  width: 40%;
+  object-fit: scale-down;
 }
 
 li {
@@ -39,6 +41,7 @@ a {
 
 a:hover {
   font-size: 17px;
+  color: #39A5E9;
 }
 
 .hb {
@@ -51,15 +54,18 @@ a:hover {
 }
 
 .part {
-  height: 40%;
+  height: 50%;
   width: 100%;
+  margin: auto;
+  object-fit: contain;
 }
 
 .rsimg {
   background-color: grey;
-  width: 30%;
-  height: 50%;
+  width: 40%;
+  height: 90%;
   margin: auto;
+  object-fit: scale-down;
 }
 
 .intro-image {
@@ -94,6 +100,12 @@ a:hover {
   box-shadow: 10px 5px 5px #a7a7a7;
 }
 
+hr {
+  border-top: solid 2px #39A5E9;
+  width: 70%;
+}
+
+/*variables*/
 /*variables*/
 a {
   font-size: 20px;
@@ -113,8 +125,10 @@ h1 {
 h3 {
   font-size: 30px;
   margin: 0;
+  color: #39A5E9;
 }
 
+/*variables*/
 /*variables*/
 /*variables*/
 /*variables*/
@@ -136,6 +150,7 @@ h1 {
 h3 {
   font-size: 30px;
   margin: 0;
+  color: #39A5E9;
 }
 
 /*variables*/
@@ -144,7 +159,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
+  gap: 10px;
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto 0 auto;
@@ -157,7 +172,17 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  gap: 15px;
+  gap: 0px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.navdiv {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  top: 150px;
+  left: 30%;
 }
 
 nav {
@@ -174,7 +199,8 @@ nav a {
 main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
+  padding: 0 5px 0 5px;
 }
 
 .accueil {
@@ -192,8 +218,9 @@ main {
   flex-direction: column;
   justify-content: center;
   height: 400px;
-  width: 40%;
+  width: 50%;
   gap: 30px;
+  margin-left: 15px;
 }
 .bvn h3 {
   text-align: center;
@@ -204,6 +231,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
+  gap: 10px;
   height: 400px;
 }
 
@@ -211,7 +239,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 50%;
+  height: 40%;
   margin-bottom: 30px;
 }
 .partctn h3 {
@@ -243,8 +271,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
-  height: 400px;
+  width: 50%;
+  height: 600px;
   margin-left: 0px;
   overflow: hidden;
 }
@@ -320,7 +348,8 @@ main {
 footer {
   background-color: #39A5E9;
   padding: 10px;
-  background-image: linear-gradient(white, #39A5E9);
+  background-color: #39A5E9;
+  border-radius: 5px 5px 0 0;
 }
 
 /*# sourceMappingURL=index.css.map */

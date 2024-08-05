@@ -5,7 +5,7 @@
 body{
     @include ctnvert;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 auto 0 auto;
@@ -17,7 +17,16 @@ header{
     @include ctnvert;
     justify-content: center;
     text-align: center;
-    gap: 15px;  
+    gap: 0px; 
+    margin-top: -20px; 
+    margin-bottom: 10px; 
+}
+
+.navdiv{
+    @include ctnvert;
+    position: static;
+    top: 150px;
+    left: 30%;
 }
 
 nav{
@@ -33,7 +42,8 @@ nav{
 
 main{
     @include ctnvert;
-    gap: 50px;
+    gap: 20px;
+    padding: 0 5px 0 5px;
 }
 
 .accueil{
@@ -47,8 +57,9 @@ main{
     @include ctnvert;
     justify-content: center;
     height: 400px;
-    width: 40%;
+    width: 50%;
     gap: 30px;
+    margin-left: 15px;
 
     h3{
         text-align: center;
@@ -59,13 +70,14 @@ main{
     @include ctnvert;
     justify-content: space-between;
     width: 50%;
+    gap: 10px;
     height: 400px;
 }
 
 .partctn{
     @include ctnvert;
     gap: 30px;
-    height: 50%;
+    height: 40%;
     margin-bottom: 30px;
     
 
@@ -95,8 +107,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
-    height: 400px;
+    width: 50%;
+    height: 600px;
     margin-left: 0px;
     overflow: hidden;
 }
@@ -164,5 +176,6 @@ main{
 footer{
     background-color: $colorlogo;
     padding: 10px;
-    background-image: $bgcolorgrad;
+    background-color: $colorlogo;
+    border-radius: 5px 5px 0 0;
 }

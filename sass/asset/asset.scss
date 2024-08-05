@@ -3,9 +3,9 @@
 @import '../mixin/mixin.scss';
 
 .logo{
-    height: 100px;
-    width: 30%;
-    object-fit: fill;
+    height: 200px;
+    width: 40%;
+    object-fit:scale-down;
 }
 
 li{
@@ -20,6 +20,7 @@ a{
 
 a:hover{
     font-size: 17px;
+    color: $colorlogo;
 }
 
 .hb{
@@ -30,15 +31,18 @@ a:hover{
 }
 
 .part{
-    height: 40%;
+    height: 50%;
     width: 100%;
+    margin: auto;
+    object-fit: contain;
 }
 
 .rsimg{
     background-color: grey;
-    width: 30%;
-    height: 50%;
+    width: 40%;
+    height: 90%;
     margin: auto;
+    object-fit: scale-down;
 }
 
 .intro-image{
@@ -68,4 +72,9 @@ a:hover{
     width: 30%;
     height: 200px;
     @include borderimg;
+}
+
+hr{
+    border-top:solid 2px $colorlogo;
+    width: 70%;
 }
