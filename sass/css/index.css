@@ -48,8 +48,8 @@ a:hover {
   height: 50%;
   border-radius: 5px;
   border: 0px;
-  box-shadow: 10px 5px 5px #a7a7a7;
   margin: 0 auto 0 auto;
+  object-fit: scale-down;
 }
 
 .part {
@@ -206,6 +206,7 @@ nav {
 }
 nav a {
   font-weight: 900;
+  color: white;
 }
 
 main {

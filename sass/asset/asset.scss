@@ -25,8 +25,10 @@ a:hover{
 .hb{
     width: 60%;
     height: 50%;
-    @include borderimg;
+    border-radius: 5px;
+    border: 0px;
     margin: 0 auto 0 auto;
+    object-fit: scale-down;
 }
 
 .part{
