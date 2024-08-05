@@ -361,7 +361,8 @@ main {
 footer {
   background-color: #39A5E9;
   padding: 10px;
-  background-color: #39A5E9;
+  color: white;
+  background-color: #3984b2;
   border-radius: 5px 5px 0 0;
 }
 
