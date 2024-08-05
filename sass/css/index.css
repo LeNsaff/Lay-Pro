@@ -100,7 +100,7 @@ a:hover {
 }
 
 hr {
-  border: solid 2px #39A5E9;
+  border: solid 1.5px #39A5E9;
   border-radius: 5px;
   width: 70%;
 }
@@ -180,8 +180,7 @@ header {
   justify-content: center;
   text-align: center;
   gap: 0px;
-  margin-top: -20px;
-  margin-bottom: 10px;
+  margin-top: Opx;
 }
 
 .navdiv {
