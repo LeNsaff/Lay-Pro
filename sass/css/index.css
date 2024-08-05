@@ -101,7 +101,8 @@ a:hover {
 }
 
 hr {
-  border-top: solid 2px #39A5E9;
+  border: solid 2px #39A5E9;
+  border-radius: 5px;
   width: 70%;
 }
 

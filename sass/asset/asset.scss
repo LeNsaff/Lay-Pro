@@ -75,6 +75,7 @@ a:hover{
 }
 
 hr{
-    border-top:solid 2px $colorlogo;
+    border:solid 2px $colorlogo;
+    border-radius: 5px;
     width: 70%;
 }
