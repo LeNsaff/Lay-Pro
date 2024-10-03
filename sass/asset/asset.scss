@@ -18,7 +18,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+.navlink:hover{
     font-size: 17px;
 }
 
@@ -40,9 +40,9 @@ a:hover{
 
 .rsimg{
     background-color: grey;
-    width: 40%;
+    width: 100%;
     height: 90%;
-    margin: auto;
+    margin: 0;
     object-fit: scale-down;
 }
 
@@ -87,3 +87,46 @@ hr{
     left: 0;
     right: 0;
   }
+
+  .footerlink{
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+}
+
+.form{
+    @include borderbtn;
+    width: 50%;
+
+}
+
+.form0{
+    margin: auto;
+    @include bgcolor;
+    height: 10px;
+}
+
+.form2{
+    height: 50%;
+    width: 90%;
+    @include bgcolor
+}
+
+.form3{
+    width: 50%;
+}
+
+.btns{
+    margin: auto;
+    width: 20%;
+    height: 50px;
+    @include borderbtn;
+    @include bgcolor;
+    font-size: 20px;
+}
+
+.btns:hover{
+    background-color: $colorlogo;
+    width: 22%;
+    height: 52px;
+}

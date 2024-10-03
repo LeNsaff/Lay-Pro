@@ -14,11 +14,11 @@
 
             <div class="navdiv" id="navdivv">
                 <nav>   
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#a-propos">À propos</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="navlink" href="#accueil">Accueil</a></li>
+                    <li><a class="navlink" href="#a-propos">À propos</a></li>
+                    <li><a class="navlink" href="#services">Services</a></li>
+                    <li><a class="navlink" href="#projets">Projets</a></li>
+                    <li><a class="navlink" href="#contact">Devis en ligne</a></li>
                 </nav>
                 
             </div>
@@ -50,9 +50,8 @@
                     </section>
 
                     <section class="rs">
-                        <img src="laypro asset/imagefb-removebg-preview.png" alt="" class="rsimg">
-                        <img src="laypro asset/imagetwitter-removebg-preview.png" alt="" class="rsimg">
-                        <img src="laypro asset/imagelinkedin-removebg-preview.png" alt="" class="rsimg">
+                        <a href="https://www.facebook.com/profile.php?id=100054217191518"><img src="laypro asset/imagefb-removebg-preview.png" alt="" class="rsimg"></a>
+                        <a href="https://wa.me/1XXXXXXXXXX"><img alt="" class="rsimg" src="laypro asset/WhatsAppButtonGreenSmall.png"/></a>
                     </section>
                 </div>
             </section>
@@ -64,6 +63,7 @@
                     <img src="laypro asset/image1.jpeg" alt="Slide 1" class="intro-image active">
                     <img src="laypro asset/image2.jpeg" alt="Slide 2" class="intro-image">
                     <img src="laypro asset/image3.jpeg" alt="Slide 3" class="intro-image">
+                    <img src="laypro asset/image4.jpeg" alt="Slide 4" class="intro-image">
                 </div>
 
                 <div class="introtxt">
@@ -175,9 +175,56 @@
 
         </main>
 
+        <div class="popmain">
+            <hr>
+            <h3>Demande de Devis en Ligne</h3> 
+            <div class="popctn" id="contact"> 
+                <div>
+                    
+                    <input type="text" class="form form0" id="nom" placeholder="Nom" required>
+                    <input type="text" class="form form0" id="prenom" placeholder="Prénom" required>
+                    <input type="text" class="form form0" id="email" placeholder="Email" required>
+                    <input type="text" class="form form0" id="tel" placeholder="Téléphone" required>
+                    <input type="text" class="form form0" id="ville" placeholder="Ville" required>
+                </div>
+
+                <div>
+                    <label for="souhaitant" class="formidk">Je souhaite</label>
+                    <select name="pets" class="form3" id="pet-select" required>
+                        <option value="">--Je souhaite--</option>
+                        <option value="dog">Des travaux en Electricité</option>
+                        <option value="cat">Des travaux en Eau</option>
+                    </select>
+                    <input type="text" class="form form2" id="explications" placeholder="Decrivez nous votre projet" required>
+                </div>
+            
+            </div>
+            <button class="btns" onclick="mail()">Envoyer ma Demande</button>
+        </div>
+
         <footer>
+            <section class="navfooter">
+                <nav>
+                    <li><a class="footerlink" href="mailto:yvesngaka@gmail.com">Email</a></li>
+                    <li><a class="footerlink" href="tel:+24101020304">Télephone</a></li>
+                    <li><a class="footerlink" href="">LinkedIn</a></li>
+                </nav>
+
+                <nav>
+                    <li><a class="footerlink" href="">brochure</a></li>
+                    <li><a class="footerlink" href="">service apres vente</a></li>
+                </nav>
+
+                <nav>
+                    <nav>
+                        <li><a class="footerlink" href="">holder</a></li>
+                        <li><a class="footerlink" href="">placeholder</a></li>
+                        <li><a class="footerlink" href="">pholder</a></li>
+                        <li><a class="footerlink" href="">place holder</a></li>
+                    </nav>
+                </nav>
+            </section>
             <p>&copy; 2024 Lay Pro. Tous droits réservés.</p>
-            <p>tdb</p>
         </footer>
     </body>
 
