@@ -5,6 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lay Pro</title>
         <link rel="stylesheet" href="sass/css/index.css">
+        
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "IdngICZ4IongDbvTa",
+            });
+        })();
+        </script>
     </head>
     <body>
         <header>
@@ -202,12 +213,12 @@
 
                 <div>
                     <label for="souhaitant" class="formidk">Je souhaite</label>
-                    <select name="pets" class="form3" id="pet-select" required>
+                    <select name="pres" class="form3" id="pres" required>
                         <option value="">--Je souhaite--</option>
                         <option value="dog">Des travaux en Electricité</option>
                         <option value="cat">Des travaux en Eau</option>
                     </select>
-                    <input type="text" class="form form2" id="explications" placeholder="Decrivez nous votre projet" required>
+                    <input type="text" class="form form2" id="expl" placeholder="Decrivez nous votre projet" required>
                 </div>
             
             </div>
